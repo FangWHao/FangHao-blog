@@ -31,3 +31,4 @@ Subgroup 3 cells are the major population present in most patients, suggesting t
 > Roles of subgroup 5 expressed genes were related to neutrophil activation, indicating a possible association with immune response. Notably, genes for both subgroups 4 and 6 were enriched for migration-related terms. Specifically, genes for subgroup 6 were enriched for GO terms such as response to hypoxia and IL17 signaling pathway, emphasizing their potential functions in migration and metastasis.
 
 - 通过富集化分析 → 得到和免疫相关的亚群 → 下一步分析与肿瘤浸润T细胞的失活状态的关系
+- 测试
