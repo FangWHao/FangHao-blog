@@ -3,8 +3,8 @@ title: 2025.08 文献阅读记录
 published: 2025-08-25
 pinned: false
 description: 总结一下文献的内容和好思路
-tags: [Markdown, Blogging, Mermaid]
-category: Examples
+tags: [单细胞, 科研, 文献]
+category: 科研
 draft: false
 ---
 # Single-cell RNA-seq highlights intra-tumoral heterogeneity  and malignant progression in pancreatic ductal  
@@ -14,7 +14,9 @@ draft: false
 > 鉴定出了多种不同的恶性细胞和基质细胞亚群，发现存在两种基因表达谱截然不同的导管细胞：一种是基因表达异常的“1型导管细胞”，另一种是恶性的“2 型导管细胞” 。通过**拷贝数变异（CNV）分析证实**，2型导管细胞是主要的恶性细胞来源，在肿瘤组织中显著增多，而在正常组织中则未被发现 。进一步的分析揭示，恶性的 2 型导管细胞内部还包含多个具有不同增殖和迁移潜能的亚群。通过构建细胞演进轨迹，该研究描绘了导管细胞从异常状态向恶性状态转变的过程，并**识别出在此过程中多个关键肿瘤相关通路（如ErbB和Notch信号通路）的动态激活** 。一项重要的发现是，**一个具有高度增殖特征的恶性导管细胞亚群的存在与肿瘤浸润T细胞的失活状态密切相关**，这表明肿瘤细胞自身的转录状态可以影响免疫微环境，从而导致不良预后。
 
 
-![](Aug-paper/2025-08-25-14-47-08.png)
+
+![](aug-paper/2025-08-25-14-47-08.png)
+
 Subgroup 3 cells are the major population present in most patients, suggesting that this subgroup is shared among PDAC patients. In contrast, subgroups 1, 2, 4, 5 and 6 are exclusively observed in some patients, which reflects the tumor heterogeneity of individual patient. 
 
 - 树状图：上方为亚群之间的相似性，左侧为不同病人样本之间的相似性。
@@ -23,3 +25,9 @@ Subgroup 3 cells are the major population present in most patients, suggesting t
   - 分布都比较多 → 共享特征
   - 部分病人很高 → 个体差异大，肿瘤异质性
   - 稀有但广泛存在
+
+![](aug-paper/2025-08-25-22-01-07.png)
+
+> Roles of subgroup 5 expressed genes were related to neutrophil activation, indicating a possible association with immune response. Notably, genes for both subgroups 4 and 6 were enriched for migration-related terms. Specifically, genes for subgroup 6 were enriched for GO terms such as response to hypoxia and IL17 signaling pathway, emphasizing their potential functions in migration and metastasis.
+
+- 通过富集化分析 → 得到和免疫相关的亚群 → 下一步分析与肿瘤浸润T细胞的失活状态的关系

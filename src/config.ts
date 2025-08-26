@@ -187,7 +187,7 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/avatar.jpg", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
 	name: "FangHao",
-	bio: "这是一个描述",
+	bio: "把有限的生命投入无限的科研 Orz",
 	links: [
 		// {
 		// 	name: "Bilibli",
@@ -234,7 +234,7 @@ export const commentConfig: CommentConfig = {
 
 export const announcementConfig: AnnouncementConfig = {
 	title: "公告", // 公告标题
-	content: "欢迎来到我的博客！这是一个示例公告。", // 公告内容
+	content: "东西都是瞎写的，认真就输了", // 公告内容
 	closable: true, // 允许用户关闭公告
 	link: {
 		enable: true, // 启用链接
@@ -332,6 +332,15 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 				// 折叠阈值：当标签数量超过20个时自动折叠
 				collapseThreshold: 20,
 			},
+		},
+		{
+			type: "toc",
+			enable: true,
+			position: "sticky",
+			order: 400,
+			class: "pb-4 card-base onload-animation", // 和其他卡片风格一致
+			// 如果你之前有在小屏隐藏 TOC，这里千万不要配置 hidden: ["mobile"]
+			// responsive: { hidden: [] }
 		},
 	],
 

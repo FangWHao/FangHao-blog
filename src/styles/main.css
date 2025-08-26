@@ -6,7 +6,7 @@
 html {
     scroll-behavior: smooth;
 }
-
+table-of-contents:empty { display: none; }
 /* 页面顶部渐变高光效果 */
 .top-gradient-highlight {
     position: fixed;
@@ -246,3 +246,4 @@ html {
 .collapsed {
     height: var(--collapsedHeight);
 }
+
