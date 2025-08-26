@@ -15,7 +15,7 @@ draft: false
 
 
 
-![](aug-paper/2025-08-25-14-47-08.png)
+![](Aug-paper/2025-08-25-14-47-08.png)
 
 Subgroup 3 cells are the major population present in most patients, suggesting that this subgroup is shared among PDAC patients. In contrast, subgroups 1, 2, 4, 5 and 6 are exclusively observed in some patients, which reflects the tumor heterogeneity of individual patient. 
 
@@ -26,7 +26,7 @@ Subgroup 3 cells are the major population present in most patients, suggesting t
   - 部分病人很高 → 个体差异大，肿瘤异质性
   - 稀有但广泛存在
 
-![](aug-paper/2025-08-25-22-01-07.png)
+![](Aug-paper/2025-08-25-22-01-07.png)
 
 > Roles of subgroup 5 expressed genes were related to neutrophil activation, indicating a possible association with immune response. Notably, genes for both subgroups 4 and 6 were enriched for migration-related terms. Specifically, genes for subgroup 6 were enriched for GO terms such as response to hypoxia and IL17 signaling pathway, emphasizing their potential functions in migration and metastasis.
 
